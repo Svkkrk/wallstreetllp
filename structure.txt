@@ -1,0 +1,81 @@
+.
+├── .env
+├── app.py
+├── backend
+├── config.py
+├── export_db.py
+├── extensions.py
+├── instance
+│   ├── real_estate.db
+│   └── users.db
+├── migrations
+│   ├── README
+│   ├── alembic.ini
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+│       ├── 613457953274_replace_badge_with_status_in_properties.py
+│       └── b88394e19da2_make_property_id_nullable_in_user_.py
+├── models
+│   ├── __init__.py
+│   ├── property.py
+│   ├── user.py
+│   └── user_enquiry.py
+├── real_estate.db
+├── requirements.txt
+├── routes
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── auth.py
+│   ├── frontend.py
+│   ├── inquiry_routes.py
+│   └── static
+│       └── uploads
+├── seed_properties.py
+├── simple_test.py
+├── static
+│   ├── admin.js
+│   ├── assets
+│   │   ├── delhi.jpg
+│   │   ├── mars.jpg
+│   │   └── unnamed.jpg
+│   ├── common.css
+│   ├── dashboard.css
+│   ├── default.jpg
+│   ├── extra.css
+│   ├── family_photo.jpg
+│   ├── featured-properties.js
+│   ├── hero.jpg
+│   ├── login.css
+│   ├── login.js
+│   ├── logo.png
+│   ├── main.css
+│   ├── primary.css
+│   ├── property.js
+│   ├── property1.jpg
+│   ├── property2.jpg
+│   ├── property3.jpg
+│   ├── property4.jpg
+│   ├── style.css
+│   ├── stylesou.css
+│   ├── team1.jpeg
+│   ├── team2.jpeg
+│   ├── team3.jpeg
+│   └── uploads
+├── structure.txt
+├── templates
+│   ├── about.html
+│   ├── admin-dashboard.html
+│   ├── contact.html
+│   ├── extra.txt
+│   ├── home.html
+│   ├── kolkata.html
+│   ├── login.html
+│   ├── profile.html
+│   ├── properties.html
+│   └── property_details.html
+├── udo apt update
+├── wsgi.py
+└── wsgi.pynano
+
+13 directories, 66 files
